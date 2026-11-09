@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.gguf.*
+checkpoint-*/
+checkpoints/
+outputs/
+runs/
+wandb/
+tensorboard/
+
+# Downloaded datasets and caches
+data/raw/
+data/cache/
+.cache/
+hf_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
